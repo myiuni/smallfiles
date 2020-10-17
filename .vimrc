@@ -47,7 +47,7 @@ func SetTitle()
     if &filetype == 'sh' 
 		"        call setline(1,"\#########################################################################") 
         ""call append(line("."), "\# File Name: ".expand("%")) 
-        ""call append(line(".")+1, "\# Author: 徐万启") 
+        ""call append(line(".")+1, "\# Author: myiuni") 
         ""call append(line(".")+2, "\# mail: 1500428751@qq.com") 
         ""call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
         ""call append(line(".")+4, "\#########################################################################")  
